@@ -1,27 +1,63 @@
-# RoutingBlog
+# UP Vidhan Parishad - Static Website
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+A static website built with Angular for the Uttar Pradesh Vidhan Parishad (Legislative Council), displaying information sourced from JSON data files.
 
-## Development server
+## 🛠️ Built With
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Angular](https://angular.io/) (2022)
+- TypeScript
+- JSON (for data)
+- HTML/CSS
 
-## Code scaffolding
+## 📂 Project Structure
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```
+src/
+ ├── app/           # Angular components, services, modules
+ ├── assets/        # Images, PDFs, and JSON data files
+ └── environments/  # Environment configuration
+```
 
-## Build
+## 🚀 Getting Started
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Prerequisites
 
-## Running unit tests
+- [Node.js](https://nodejs.org/) installed
+- [Angular CLI](https://angular.io/cli) installed globally:
+  ```bash
+  npm install -g @angular/cli
+  ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Installation
 
-## Running end-to-end tests
+1. Clone the repository
+   ```bash
+   git clone https://github.com/RupeshSingh/UP_VidhanParishad_StaticWebsite.git
+   ```
+2. Navigate to the project folder
+   ```bash
+   cd UP_VidhanParishad_StaticWebsite
+   ```
+3. Install dependencies
+   ```bash
+   npm install
+   ```
+4. Run the development server
+   ```bash
+   ng serve
+   ```
+5. Open your browser at `http://localhost:4200/`
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 🌐 Live Demo
 
-## Further help
+_Add your GitHub Pages link here once deployed:_
+`https://rupeshsingh.github.io/UP_VidhanParishad_StaticWebsite/`
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 📄 License
+
+This project is open source. Feel free to use and modify it.
+
+## 🙋 Author
+
+**Rupesh Singh**
+GitHub: [@RupeshSingh](https://github.com/RupeshSingh)
