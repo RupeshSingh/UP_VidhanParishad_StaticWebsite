@@ -1,0 +1,77 @@
+<div>
+    <div class="container">
+        <div class="fixTableHead">
+            <input type="image" src="assets/images/back.png" width="48" height="48" onclick="history.go(-1)"
+                style="border-radius:100%;padding-top:5px" />
+
+            <h5 style="margin-top:20px">माननीय सदस्यों की सूची और कार्यकाल</h5>
+            <div style="overflow-x:auto;">
+            <table  class="table border" style="line-height:1.7em;">
+              <thead>
+              <tr style="top: 0;">
+                  <th scope="col">क्र0 सं0</th>
+                  <th scope="col">मा0 सदस्य</th>
+                  <th scope="col">पार्टी</th>
+                  <th scope="col">स्थायी पता</th>
+                  <th scope="col">स्थानीय पता </th>
+                  <th scope="col">निर्वाचन क्षेत्र</th>
+              </tr>
+              </thead>
+              <tbody *ngFor="let li of data">
+              <tr>
+                  <td scope="row" colspan="8" style="text-align: center;font-weight: bold;background-color: #45B39D;color: white">{{li.tenure}}</td>
+              </tr>
+              <tr *ngFor="let li2 of li.members">
+                  <td scope="row">{{li2.rno}}</td>
+                  <td>{{li2.name}}<br />{{li2.email}}<br>{{li2.mobile}}</td>
+                  <td>{{li2.party}}</td>
+                  <td>{{li2.paddress}}</td>
+                  <td>{{li2.raddress}}</td>
+                  <td>{{li2.elected_area}}</td>
+              </tr>
+              </tbody>
+          </table>
+        </div>
+            <!-- <div class="row">
+              <div class="col-lg-2 col-md-3 col-sm-12">
+                <div style="text-align: center;"><h4>दल-वार सदस्य</h4></div>
+                <ul class="list-group">
+                  <li class="list-group-item"><a routerLink="">सभी</a></li>
+                  <li class="list-group-item"><a routerLink="">भारतीय जनता पार्टी</a></li>
+                  <li class="list-group-item"><a routerLink="">समाजवादी पार्टी</a></li>
+                  <li class="list-group-item"><a routerLink="">अपना दल(सोनेलाल) पार्टी</a></li>
+                  <li class="list-group-item"><a routerLink="">निर्बल इण्डियन शोसित हमारा आम दल</a></li>
+                  <li class="list-group-item"><a routerLink="">जनसत्‍ता दल लोकतांत्रिक</a></li>
+                  <li class="list-group-item"><a routerLink="">राष्ट्रीय लोक दल</a></li>
+                  <li class="list-group-item"><a routerLink="">सुहेलदेव भारतीय समाज पार्टी</a></li>
+                  <li class="list-group-item"><a routerLink="">शिक्षक दल (गैर राजनीतिक)</a></li>
+                  <li class="list-group-item"><a routerLink="">निर्दलीय समूह</a></li>
+                  <li class="list-group-item"><a routerLink="">निर्दलीय</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-8 col-md-3 col-sm-12">
+
+
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-12">
+                <div style="text-align: center;"><h4>माननीय सदस्यों का कार्यकाल</h4></div>
+                <ul>
+                  <li class="list-group-item"><a routerLink="">06 दिसम्‍बर, 2026 तक</a></li>
+                  <li class="list-group-item"><a routerLink="">30 जनवरी, 2027 तक</a></li>
+                  <li class="list-group-item"><a routerLink="">26 सितम्‍बर, 2027 तक</a></li>
+                  <li class="list-group-item"><a routerLink="">12 अप्रैल, 2028 तक</a></li>
+                  <li class="list-group-item"><a routerLink="">06 जुलाई, 2028 तक</a></li>
+                  <li class="list-group-item"><a routerLink="">12 फरवरी, 2029 तक</a></li>
+                  <li class="list-group-item"><a routerLink="">02 अप्रैल, 2029 तक</a></li>
+                  <li class="list-group-item"><a routerLink="">05 मई, 2030 तक</a></li>
+                </ul>
+              </div>
+            </div> -->
+
+
+
+        </div>
+    </div>
+    <div class="clear"></div>
+
+</div>

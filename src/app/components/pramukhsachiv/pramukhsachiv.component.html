@@ -1,0 +1,21 @@
+<div>
+    <div class="container">
+        <div>
+            <h5 style="margin-top:20px">उत्‍तर प्रदेश विधान परिषद् के प्रमुख सचिव एवं उनके कार्यकाल</h5>
+            <table class="table">
+                <tr>
+                    <th>क्र० सं० </th>
+                    <th>नाम</th>
+                    <th>कार्यकाल से</th>
+                    <th>कार्यकाल तक</th>
+                </tr>
+                <tr *ngFor="let item of data;let i=index;">
+                    <td>{{i+1}}</td>
+                    <td>{{item.name}}</td>
+                    <td>{{item.tenure}}</td>
+                    <td>{{item.tenure_to}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

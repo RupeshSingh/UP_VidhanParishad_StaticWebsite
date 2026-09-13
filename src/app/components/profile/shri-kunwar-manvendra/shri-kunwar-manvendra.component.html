@@ -1,0 +1,121 @@
+<div style="border-color: black">
+  <div>
+    <div class="profile_container">
+      <input type="image" src="assets/images/back.png" width="48" height="48" onclick="history.go(-1)"
+        style="border-radius:100%" />
+      <div style="text-align: center; color: white; background-color: #45B39D; padding: 10px">परिचय</div>
+      <div class="profile_container_sub">
+        <div class="profile-inner-container">
+          <div class="profile_detail" *ngFor="let l of data;">
+            <div class="profile_img">
+              <img class="profile-img" src="assets/images/profile/{{l.name_img}}.jpg">
+            </div>
+            <div class="profile_name">
+              <div class="profile_name_container">
+                <table class="table">
+                  <tr>
+                    <td>नाम</td>
+                    <td style="font-size: 16px; font-weight: bold">{{l.name}}</td>
+                  </tr>
+                  <tr>
+                    <td>जन्म</td>
+                    <td>{{l.dob}}</td>
+                  </tr>
+                  <tr>
+                    <td>पिता</td>
+                    <td>{{l.father}}</td>
+                  </tr>
+                  <tr>
+                    <td>माता</td>
+                    <td>{{l.mother}}</td>
+                  </tr>
+                  <tr>
+                    <td>शिक्षा</td>
+                    <td>{{l.edu}}</td>
+                  </tr>
+                  <tr>
+                    <td> (1) प्राथमिक</td>
+                    <td>{{l.primary}}</td>
+                  </tr>
+                  <tr>
+                    <td> (2) माध्यमिक</td>
+                    <td>{{l.secondry}}</td>
+                  </tr>
+                  <tr>
+                    <td> (3) उच्च</td>
+                    <td>{{l.higher}}</td>
+                  </tr>
+                  <tr>
+                    <td>विवाह</td>
+                    <td>{{l.marriage}}</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+          <div class="profile_detail" *ngFor="let l of data;">
+            <table class="table">
+              <tr style="background-color:#ABB2B9;color:white">
+                <td colspan="2"><b>गतिविधियाँ :</b></td>
+              </tr>
+              <tr>
+                <td> (1) सामाजिक</td>
+                <td>{{l.achievement_one}}</td>
+              </tr>
+              <tr>
+                <td> (2) राजनैतिक</td>
+                <td>{{l.achievement_two}}</td>
+              </tr>
+              <tr>
+                <td>  (3) पार्टी संगठन में</td>
+                <td>{{l.achievement_three}}</td>
+              </tr>
+              <tr>
+                <td> (4) उत्तर प्रदेश विधान मण्डल में</td>
+                <td>{{l.achievement_four}}</td>
+              </tr>
+              <tr>
+                <td> (5) विधान परिषद् की विभिन्न समितियों में</td>
+                <td>{{l.achievement_five}}</td>
+              </tr>
+              <tr>
+                <td> (6) पीठासीन अधिकारी</td>
+                <td>{{l.achievement_six}}</td>
+              </tr>
+              <tr>
+                <td> (7) अन्य गतिविधियॉ</td>
+                <td>{{l.achievement_seven}}</td>
+              </tr>
+              <tr>
+                <td> (8) विदेश भ्रमण</td>
+                <td>{{l.achievement_eight}}</td>
+              </tr>
+              <tr>
+                <td> (9) रूचि</td>
+                <td>{{l.achievement_nine}}</td>
+              </tr>
+              <tr>
+                <td> पैतृक आवास</td>
+                <td>{{l.add}}</td>
+              </tr>
+              <tr>
+                <td> स्थायी पता</td>
+                <td>{{l.regi_add}}</td>
+              </tr>
+              <tr>
+                <td> वर्तमान पता</td>
+                <td>{{l.current_add}}</td>
+              </tr>
+              <tr>
+                <td> सम्पर्क सूत्र</td>
+                <td>{{l.contact}}</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

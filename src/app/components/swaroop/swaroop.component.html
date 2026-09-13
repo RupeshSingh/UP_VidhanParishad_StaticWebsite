@@ -1,0 +1,21 @@
+<div>
+    <div class="container">
+        <div>
+            <h4 style="margin-top:20px;text-align: center;">विधान परिषद के गठन का स्‍वरूप</h4>
+            <h5>विधान परिषद मे कुल स्‍थानों की संख्‍या- 100</h5>
+            <table class="table">
+                <tr>
+                    <th>क्र0सं0</th>
+                    <th>क्षेत्र</th>
+                    <th>सदस्‍य संख्‍या</th>
+                </tr>
+                <tr *ngFor="let li of data;let i=index;">
+                    <td>{{i+1}}</td>
+                    <td>{{li.area}}</td>
+                    <td>{{li.sadasyasankhya}}</td>
+                </tr>
+            </table>
+            <div style="text-align: center;width: 100%;"><h4>कुलयोग- 100</h4></div>
+        </div>
+    </div>
+</div>

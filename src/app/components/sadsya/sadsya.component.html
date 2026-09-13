@@ -1,0 +1,24 @@
+<div>
+    <div class="container">
+        <div>
+            <h5 style="margin-top:20px">उत्‍तर प्रदेश विधान परिषद की सदस्‍यों की सूची</h5>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th style="color: white">क्र०सं० </th>
+                    <th style="color: white">नाम</th>
+                </tr>
+            </thead>
+            <tbody *ngFor="let li of data;">
+                <tr>
+                    <td colspan="2" style="text-align: center;font-weight: bold;background-color: #45B39D;color: white">{{li.party}}</td>                    
+                </tr>
+                <tr *ngFor="let li2 of li.members;let i=index;">
+                    <td >{{i+1}}</td>
+                    <td class="w-90 p-2">{{li2.name}}</td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+    </div>
+</div>

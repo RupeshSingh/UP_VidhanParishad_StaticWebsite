@@ -1,0 +1,45 @@
+<div class="container">
+<script>var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+    chart.draw(data, options);</script>
+
+
+    <div  style="background-color:white">
+        <div>
+            <div class="row" style="margin:0;padding:0">
+                <div style="background-color:transparent !important;text-align:center"
+                    class="col-sm-12 col-md-12 col-lg-12">
+                    <h5 style="margin-top:20px">दलीय नेताओं के नाम/मुख्‍य सचेतक एवं उनकी दलीय स्थिति</h5>
+                    <div style="height: 300px;" id="piechart"></div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12">
+
+                    <table class="table border" style="font-size: 15px;">
+                        <tr>
+                            <th>क्र0सं0</th>
+                            <th>दल का नाम</th>
+                            <th>मुख्‍य सचेतक/ सचेतक</th>
+                            <th>दल के नेता/उपनेता का नाम</th>
+                            <th>दलीय स्थिति</th>
+
+                        </tr>
+                        <tr *ngFor="let li of data;let i=index">
+                            <td>{{i + 1}}</td>
+                            <td>{{li.party}}</td>
+                            <td>{{li.sachetak}}</td>
+                            <td>{{li.dalkeneta}}</td>
+                            <td>{{li.sthiti}}</td>
+                        </tr>
+                    </table>
+                    <br />
+                    <br />
+                    <div style="text-align:center;font-weight:bold;font-size:20px">कुल योग - 100</div>
+                    <br />
+                    <br />
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>

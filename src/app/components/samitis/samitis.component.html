@@ -1,0 +1,24 @@
+
+<div>
+  <div class="container" style="background-color: white;">
+
+    <h5 style="padding-top:12px">समितियां</h5>
+    <br />
+
+    <div class="row">
+      <div class="col-4">
+        <ul class="list-group" style="text-align: center;border-right: 1px" *ngFor="let li of data; let ind = index;">
+          <li class="list-group-item" style="padding:10px;text-align: left;" routerLinkActive="active">{{ind+1}}.
+            <a routerLink="{{li.samiti_Title_eng}}">{{li.samiti_Title}}</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-8">
+        <div class="container">
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

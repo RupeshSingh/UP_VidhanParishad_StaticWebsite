@@ -1,0 +1,30 @@
+<div>
+    <div class="container">
+        <div>
+            <h5 style="margin-top:20px">उत्‍तर प्रदेश विधान परिषद के पीठासीन अधिकारी</h5>
+            <table  class="table border" style="line-height:1.7em">
+                <thead>
+                <tr>
+                    <th>क्र0सं0</th>
+                    <th>मा0सदस्य का नाम</th>
+                    <th>स्थायी पता</th>
+                    <th>स्थानीय पता </th>
+
+                </tr>
+                </thead>
+                <tbody *ngFor="let li of data">
+                <tr>
+                    <td colspan="5" style="text-align: center;font-weight: bold;background-color: #45B39D;color: white">{{li.title}}</td>
+                </tr>
+                <tr *ngFor="let li2 of li.members;let i=index;">
+                    <td>{{i+1}}</td>
+                    <td><a routerLink="{{li2.name_eng}}">{{li2.name}}</a></td>
+                    <td>{{li2.tenure}}</td>
+                    <td>{{li2.tenure_to}}</td>
+                  </tr>
+                </tbody>
+            </table>
+        </div >
+
+    </div>
+</div>

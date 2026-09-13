@@ -1,0 +1,235 @@
+﻿[
+    {
+        "title_eng":"sabhapati",
+        "title": "सभापति",
+        "members": [
+            {
+                "name_eng":"drsirsitaram",
+                "name": "डा0 सर सीताराम",
+                "tenure": "19 अगस्त, 1925",
+                "tenure_to": "12 मार्च,1937",
+                "id":"101"
+            },
+            {
+                "name_eng": "drsirsitaram",
+                "name": "डा0 सर सीताराम",
+                "tenure": " 12 जुलाई,1937",
+                "tenure_to": "09 मार्च,1949",
+                "id":"102"
+
+            },
+            {
+                "name_eng": "shrichandrabhan",
+                "name": "श्री चन्‍द्रभाल",
+                "tenure": "10 मार्च,1949",
+                "tenure_to": "25 जन‍वरी 1950",
+                "id":"103"
+            },
+            {
+                "name_eng": "shrichandrabhan",
+                "name": "श्री चन्‍द्रभाल",
+                "tenure": "26 जन‍वरी, 1950",
+                "tenure_to": "5 मई, 1958",
+                "id":"104"
+            },
+            {
+                "name_eng": "shriraghunath",
+                "name": "श्री रघुनाथ विनायक धुलेकर",
+                "tenure": "20 जुलाई, 1958",
+                "tenure_to": "5 मई, 1964",
+                "id":"105"
+            },
+            {
+                "name_eng": "shridarbarilal",
+                "name": "श्री दरबारी लाल शर्मा",
+                "tenure": "05 अगस्‍त,1964",
+                "tenure_to": "5 मई, 1968",
+                "id":"106"
+            },
+            {
+                "name_eng": "shrivirendraswaroop",
+                "name": "श्री वीरेन्‍द्र स्‍वरूप",
+                "tenure": "15 मार्च, 1969",
+                "tenure_to": "5 मई, 1974",
+                "id":"107"
+            },
+            {
+                "name_eng": "shrivirendraswaroop",
+                "name": "श्री वीरेन्‍द्र स्‍वरूप",
+                "tenure": "11 जून, 1974",
+                "tenure_to": "26 फरवरी, 1980",
+                "id":"108"
+            },
+            {
+                "name_eng": "shrivirendrabahadur",
+                "name": "श्री वीरेन्‍द्र बहादुर सिंह चंदेल",
+                "tenure": "6 अक्‍टूबर, 1980",
+                "tenure_to": "05 मई, 1982",
+                "id":"109"
+            },
+            {
+                "name_eng": "shrivirendrabahadur",
+                "name": "श्री वीरेन्‍द्र बहादुर सिंह चंदेल",
+                "tenure": "3 मार्च, 1983",
+                "tenure_to": "05 मई, 1988",
+                "id":"110"
+            },
+            {
+                "name_eng": "shrijagdish",
+                "name": "श्री जगदीश चन्‍द्र दीक्षित",
+                "tenure": "6 अप्रैल, 1989",
+                "tenure_to": "07 मार्च, 1990",
+                "id":"111"
+            },
+            {
+                "name_eng": "shrishivprasad",
+                "name": "श्री शिव प्रसाद गुप्‍ता",
+                "tenure": "05 जुलाई, 1990",
+                "tenure_to": "06 जुलाई, 1992",
+                "id":"112"
+            },
+            {
+                "name_eng": "shrinityanand",
+                "name": "श्री नित्‍यानन्‍द स्‍वामी",
+                "tenure": "25 अप्रैल, 1997",
+                "tenure_to": "08 नवम्‍बर , 2000",
+                "id":"113"
+            },
+            {
+                "name_eng": "omprakashsharma",
+                "name": "श्री ओम प्रकाश शर्मा",
+                "tenure": "17 नवम्‍बर, 2000",
+                "tenure_to": "5 मई, 2002 तक"
+            },
+            {
+                "name_eng": "shrikunwarmanvendra",
+                "name": "श्री कुँवर मानवेन्‍द्र सिंह",
+                "tenure": "6 मई, 2002",
+                "tenure_to": "2 अगस्‍त, 2004 तक"
+            },
+            {
+                "name_eng": "chawdharisukhramsingh",
+                "name": "चौधरी सुखराम सिंह यादव",
+                "tenure": "03 अगस्‍त, 2004",
+                "tenure_to": "15 जनवरी, 2010",
+                "id":"114"
+            },
+            {
+                "name_eng": "shriganesh",
+                "name": "श्री गणेश शंकर पाण्‍डेय",
+                "tenure": "21 जनवरी, 2010",
+                "tenure_to": "15 जनवरी, 2016",
+                "id":"115"
+            },
+            {
+                "name_eng": "shrirameshyadav",
+                "name": "श्री रमेश यादव",
+                "tenure": "11 मार्च, 2016",
+                "tenure_to": "30 जनवरी, 2021",
+                "id":"116"
+            },
+            {
+                "name_eng": "shrikunwarmanvendra",
+                "name": "श्री कुँवर मानवेन्‍द्र सिंह‍",
+                "tenure": "31 जनवरी, 2021",
+                "tenure_to": " वर्तमान"
+            }
+        ]
+    },
+    {
+        "title_eng":"protem sabhapati",
+        "title": "प्रोटेम सभापति",
+        "members": [
+            {
+                "name_eng": "shridarbarilal",
+                "name": "श्री दरबारी लाल शर्मा",
+                "tenure": "6 मई, 1964",
+                "tenure_to": "4 अगस्‍त, 1964"
+            },
+            {
+                "name_eng": "shridarbarilal",
+                "name": "श्री दरबारी लाल शर्मा",
+                "tenure": "6 मई, 1968",
+                "tenure_to": "1 मार्च 1969"
+            },
+            {
+                "name_eng": "shrivirendrabahadur",
+                "name": "श्री वीरेन्‍द्र बहादुर सिंह चंदेल",
+                "tenure": "18 जून, 1980",
+                "tenure_to": "5 अक्‍टूबर, 1980 तक"
+            },
+            {
+                "name_eng": "shrijagdish",
+                "name": "श्री जगदीश चन्‍द्र दीक्षित",
+                "tenure": "6 मई, 1988",
+                "tenure_to": "5 अप्रैल, 1989 तक"
+            },
+            {
+                "name_eng": "shrishivprasad",
+                "name": "श्री शिव प्रसाद गुप्‍ता",
+                "tenure": "13 मार्च, 1990",
+                "tenure_to": "8 अप्रैल, 1990"
+            },
+            {
+                "name_eng": "shrishivprasad",
+                "name": "श्री शिव प्रसाद गुप्‍ता",
+                "tenure": "09 अप्रैल, 1990",
+                "tenure_to": "4 जुलाई, 1990 त‍‍क"
+            },
+            {
+                "name_eng": "shrinityanand",
+                "name": "श्री नित्‍यानन्‍द स्‍वामी",
+                "tenure": "23 मई, 1996",
+                "tenure_to": "24 अप्रैल, 1997 तक"
+            },
+            {
+                "name_eng": "kamlakantgautam",
+                "name": "श्री कमला कान्‍त गौतम",
+                "tenure": "16 जनवरी, 2010",
+                "tenure_to": "21-01-2010 की मध्‍यान्‍त तक"
+            },
+            {
+                "name_eng": "omprakashsharma",
+                "name": "श्री ओम प्रकाश शर्मा",
+                "tenure": "16 जनवरी, 2016",
+                "tenure_to": "11 मार्च, 2016 तक"
+            }
+        ]
+    },
+    {
+        "title_eng":"karyakari sabhapati",
+        "title": "कार्यकारी सभापति",
+        "members": [
+            {
+                "name_eng": "nijamuddin",
+                "name": "श्री निजामुददीन",
+                "tenure": "06 मई, 1958",
+                "tenure_to": "19 जुलाई, 1958 तक"
+            },
+            {
+                "name_eng": "shrivirendraswaroop",
+                "name": "श्री वीरेन्‍द्र स्‍वरूप",
+                "tenure": "02 मार्च, 1969",
+                "tenure_to": "14 मार्च, 1969 तक"
+            },
+            {
+                "name_eng": "virendrapratapsingh",
+                "name": "श्री देवेन्‍द्र प्रताप सिंह",
+                "tenure": "06 मई, 1974",
+                "tenure_to": "10 जून, 1974 तक"
+            },
+            {
+                "name_eng": "shrishivprasad",
+                "name": "श्री शिव प्रसाद गुप्‍ता",
+                "tenure": "06 मई, 1982",
+                "tenure_to": "02 मार्च 1983 तक"
+            },
+            {
+                "name_eng": "shrinityanand",
+                "name": "श्री नित्‍यानन्‍द स्‍वामी",
+                "tenure": "07 जुलाई, 1992",
+                "tenure_to": "09 मई, 1996 तक"
+            }
+        ]
+    }
+]

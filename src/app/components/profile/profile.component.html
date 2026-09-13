@@ -1,0 +1,57 @@
+<div style="border-color: black">
+    <div>
+        <div class="profile_container">
+             <input type="image" src="assets/images/back.png" width="48" height="48" onclick="history.go(-1)" style="border-radius:100%"/>
+            <div style="text-align: center; color: white; background-color: #45B39D; padding: 10px">परिचय</div>
+            <div class="profile_container_sub">
+                <div class="profile-inner-container">
+                    <div class="profile_detail" *ngFor="let l of data.name;">
+                        <div class="profile_img">
+                            <img src="assets/images/profile/{{l.name_img}}.jpg">
+                        </div>
+                        <div class="profile_name">
+                            <div class="profile_name_container">
+                                <table class="table">
+                                    <tr>
+                                        <td>नाम</td>
+                                        <td style="font-size: 16px; font-weight: bold"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>जन्म</td>
+                                        <td>{{l.dob}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>पिता</td>
+                                        <td>{{l.father}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>माता</td>
+                                        <td>{{l.mother}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>शिक्षा</td>
+                                        <td>{{l.edu}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>विवाह</td>
+                                        <td>{{l.marriage}}</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <table class="table">
+                        <tr style="background-color:#ABB2B9;color:white"><td><b>राजनैतिक :</b></td></tr>
+                        <tr>
+                            <td class="info_text" ng-bind-html="l.politics | safeHtml"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

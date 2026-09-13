@@ -1,0 +1,139 @@
+<!-- Global Page Loader -->
+<div class="page-loader" *ngIf="isLoading">
+  <div class="loader-content">
+    <div class="loader-spinner"></div>
+    <div class="loader-text">लोड हो रहा है...</div>
+  </div>
+</div>
+
+<nav
+  class="navbar navbar-expand-lg navbar-dark"
+  style="background-color: #2e4b90"
+>
+  <a class="navbar-brand" href="#" style="padding: 0">
+    <img src="assets/images/logo-text3.png" alt="" />
+  </a>
+
+  <button
+    class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="toggler-icon top-bar"></span>
+    <span class="toggler-icon middle-bar"></span>
+    <span class="toggler-icon bottom-bar"></span>
+  </button>
+
+  <div
+    class="collapse navbar-collapse justify-content-between"
+    id="navbarSupportedContent"
+  >
+    <div class="navbar-nav"></div>
+
+    <div class="navbar-nav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="">मुख्या पृष्ठ</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            व्यक्ति परिचय
+          </a>
+
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" routerLink="/rajyapal">राज्यपाल</a>
+            <div class="dropdown-divider"></div>
+
+            <a class="dropdown-item" routerLink="/mukhyamantri">मुख्यमंत्री</a>
+            <div class="dropdown-divider"></div>
+
+            <a class="dropdown-item" routerLink="/pithaseen">पीठासीन अधिकारी</a>
+            <div class="dropdown-divider"></div>
+
+            <a class="dropdown-item" routerLink="/netasadan">नेता सदन</a>
+            <div class="dropdown-divider"></div>
+
+            <a class="dropdown-item" routerLink="/netavirodhidal"
+              >नेता विरोधी दल</a
+            >
+            <div class="dropdown-divider"></div>
+
+            <a class="dropdown-item" routerLink="/pramukhsachiv">प्रमुख सचिव</a>
+            <div class="dropdown-divider"></div>
+
+            <a class="dropdown-item" routerLink="/sachiv">सचिव</a>
+            <div class="dropdown-divider"></div>
+
+            <a class="dropdown-item" routerLink="/adhishthata"
+              >अधिष्ठाता मण्डल</a
+            >
+            <div class="dropdown-divider"></div>
+
+            <a class="dropdown-item" routerLink="/sabhapati">सभापति</a>
+            <div class="dropdown-divider"></div>
+
+            <a class="dropdown-item" routerLink="/upsabhapati">उपसभापति</a>
+            <div class="dropdown-divider"></div>
+
+            <a class="dropdown-item" routerLink="/sadsya">सदस्य</a>
+            <div class="dropdown-divider"></div>
+
+            <a class="dropdown-item" routerLink="/mahilasadsya">महिला सदस्य</a>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/samitis">समितियां</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/officers">अधिकारीगण</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/daliy-sthit">दलीय स्थित</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/sadanjankari">सदन जानकारी</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/gallery">चित्रवीथिका</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/facilities">सुविधायें</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/contact_us">सम्पर्क सूत्र</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Angular Pages -->
+<div class="page-content">
+  <router-outlet></router-outlet>
+</div>
+
+<!-- Footer -->
+<app-footer></app-footer>
+
+<a id="backtotop">
+  <i class="fa fa-chevron-up"></i>
+</a>

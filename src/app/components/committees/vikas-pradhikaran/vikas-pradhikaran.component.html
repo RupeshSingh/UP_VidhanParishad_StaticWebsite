@@ -1,0 +1,20 @@
+<div>
+  <div class="container">
+    <div id="printableArea">
+      <h5 style="margin-top:20px">विकास प्राधिकरणों, आवास विकास परिषद,जिला पंचायतों एवं नगर निगमों में व्‍याप्‍त अनियमितताओं पर अंकुश/जॉच किये जाने के सम्‍बंध में</h5>
+      <table class="table">
+        <tbody *ngFor="let li of data;">
+          <br />
+          <tr><td colspan="3" style="text-align: center;font-weight: bold;">सभापति- {{li.chairman}}</td></tr>
+          <tr *ngFor="let li2 of li.members;let i=index;">
+            <td>{{i+1}}</td>
+            <td>{{li2.names}}</td>
+            <td>{{li2.role}}</td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+    <div style="text-align: center;"><br/><input class="btn-primary" type="button" onclick="printDiv('printableArea')" value="Print" /></div>
+  </div>
+</div>

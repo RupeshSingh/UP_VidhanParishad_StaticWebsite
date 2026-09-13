@@ -1,0 +1,111 @@
+<div style="border-color: black">
+  <div>
+    <div class="profile_container">
+      <input type="image" src="assets/images/back.png" width="48" height="48" onclick="history.go(-1)"
+        style="border-radius:100%" />
+      <div style="text-align: center; color: white; background-color: #45B39D; padding: 10px">परिचय</div>
+      <div class="profile_container_sub">
+        <div class="profile-inner-container">
+          <div class="profile_detail" *ngFor="let l of data;">
+            <div class="profile_img">
+              <img class="profile-img" src="assets/images/profile/{{l.name_img}}.jpg">
+            </div>
+            <div class="profile_name">
+              <div class="profile_name_container">
+                <table class="table">
+                  <tr>
+                    <td>नाम</td>
+                    <td style="font-size: 16px; font-weight: bold">{{l.name}}</td>
+                  </tr>
+                  <tr>
+                    <td>जन्म</td>
+                    <td>{{l.dob}}</td>
+                  </tr>
+                  <tr>
+                    <td>जन्म स्‍थान</td>
+                    <td>{{l.birthplace}}</td>
+                  </tr>
+                  <tr>
+                    <td>शिक्षा</td>
+                    <td>{{l.edu}}</td>
+                  </tr>
+                  <tr>
+                    <td>व्‍यवसाय</td>
+                    <td>{{l.occupation}}</td>
+                  </tr>
+                  <tr>
+                    <td> साहित्यिक गतिविधियाँ</td>
+                    <td>{{l.sahityik_movement}}</td>
+                  </tr>
+                  <tr>
+                    <td>स्‍थायी पता</td>
+                    <td>{{l.regi_add}}</td>
+                  </tr>
+                  <tr>
+                    <td>अस्थाई पता</td>
+                    <td>{{l.current_add}}</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+          <div class="profile_detail" *ngFor="let l of data;">
+            <table class="table">
+              <tr style="background-color:#ABB2B9;color:white">
+                <td colspan="2"><b>संसदीय जीवन:</b></td>
+              </tr>
+              <tr>
+                <td colspan="2">{{l.achievement_one}}</td>
+              </tr>
+
+              <tr style="background-color:#ABB2B9;color:white">
+                <td colspan="2"><b>राजनै‍ति‍क गतिविधियाँ :</b></td>
+              </tr>
+              <tr>
+                <td colspan="2">{{l.achievement_two}}</td>
+              </tr>
+              <tr style="background-color:#ABB2B9;color:white">
+                <td colspan="2"><b>मुख्‍यमंत्री कार्यकाल की उपलब्धियाँ :</b></td>
+              </tr>
+              <tr>
+                <td colspan="2">{{l.achievement_three}}</td>
+              </tr>
+              <tr style="background-color:#ABB2B9;color:white">
+                <td colspan="2"><b>सम्‍मान/पुरस्‍कार :</b></td>
+              </tr>
+              <tr>
+                <td colspan="2">{{l.achievement_four}}</td>
+              </tr>
+              <tr style="background-color:#ABB2B9;color:white">
+                <td colspan="2"><b>विदेश यात्रा :</b></td>
+              </tr>
+              <tr>
+                <td colspan="2">{{l.achievement_five}}</td>
+              </tr>
+              <tr style="background-color:#ABB2B9;color:white">
+                <td colspan="2"><b>प्रकाशित पुस्तक :</b></td>
+              </tr>
+              <tr>
+                <td colspan="2">{{l.achievement_six}}</td>
+              </tr>
+              <tr style="background-color:#ABB2B9;color:white">
+                <td colspan="2"><b>विशेष अभिरूचि :</b></td>
+              </tr>
+              <tr>
+                <td colspan="2">{{l.achievement_seven}}</td>
+              </tr>
+              <tr style="background-color:#ABB2B9;color:white">
+                <td colspan="2"><b>संस्थाएं :</b></td>
+              </tr>
+              <tr>
+                <td colspan="2">{{l.achievement_eight}}</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
